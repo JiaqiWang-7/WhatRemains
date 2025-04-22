@@ -60,7 +60,16 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\NV3D\Wild Harvest\Shared\Scripts\PatchController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\NV3D\Wild Harvest\Shared\Scripts\SoilWatering.cs" />
+    <Compile Include="Assets\NV3D\Wild Harvest\Shared\Scripts\BunchAnim.cs" />
+    <Compile Include="Assets\NV3D\Wild Harvest\Shared\Scripts\CollisionTrigger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\NV3D\Wild Harvest\Shared\Shaders\WH_Foliage.shader" />
+    <None Include="Assets\NV3D\Wild Harvest\Grains\Readme.txt" />
+    <None Include="Assets\NV3D\Wild Harvest\Shared\Shaders\WH_Soil.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1123,6 +1132,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.XR.Oculus">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="PPv2URPConverters">
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
@@ -1187,6 +1200,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
@@ -1219,6 +1236,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1233,6 +1254,10 @@
     </Reference>
     <Reference Include="MetaXrSimulator.Editor">
       <HintPath>Library\ScriptAssemblies\MetaXrSimulator.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
@@ -1297,6 +1322,10 @@
     </Reference>
     <Reference Include="Oculus.Interaction.InterfaceSupport">
       <HintPath>Library\ScriptAssemblies\Oculus.Interaction.InterfaceSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Meta.XR.MultiplayerBlocks.Shared">
@@ -1407,6 +1436,10 @@
       <HintPath>Library\ScriptAssemblies\Oculus.Haptics.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Oculus.Interaction.Editor">
       <HintPath>Library\ScriptAssemblies\Oculus.Interaction.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1427,16 +1460,24 @@
       <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Meta.Voice.VSDKHub.Editor">
       <HintPath>Library\ScriptAssemblies\Meta.Voice.VSDKHub.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="VoiceSDK.Editor">
-      <HintPath>Library\ScriptAssemblies\VoiceSDK.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Oculus.Interaction.Samples">
       <HintPath>Library\ScriptAssemblies\Oculus.Interaction.Samples.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VoiceSDK.Editor">
+      <HintPath>Library\ScriptAssemblies\VoiceSDK.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Oculus.Interaction.Samples.Editor">

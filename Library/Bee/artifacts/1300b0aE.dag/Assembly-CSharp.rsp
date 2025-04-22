@@ -516,6 +516,10 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/NV3D/Wild Harvest/Shared/Scripts/BunchAnim.cs"
+"Assets/NV3D/Wild Harvest/Shared/Scripts/CollisionTrigger.cs"
+"Assets/NV3D/Wild Harvest/Shared/Scripts/PatchController.cs"
+"Assets/NV3D/Wild Harvest/Shared/Scripts/SoilWatering.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
